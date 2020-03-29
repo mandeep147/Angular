@@ -1,4 +1,25 @@
 <div class="container">
+  <div>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="/shop" routerLinkActive="active">
+          Shop
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about" routerLinkActive="active">
+          About
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </div>
+  <router-outlet></router-outlet>
+
   <p> Name: {{ name | uppercase }}</p>
   <p>{{ name | nameLabel: 'Name: ' }}</p>
   <div class="row">

@@ -9,6 +9,10 @@ import {ProfileComponent} from "./homework-1/profile/profile.component";
 import {SimilarListComponent} from "./homework-1/similar-list/similar-list.component";
 import {ShortProfileComponent} from "./homework-1/short-profile/short-profile.component";
 import {NameLabelPipe} from "./pipes/name-label.pipe";
+import {ShopAppComponent} from "./shop-app/shop.component";
+import {AppRoutingModule} from "./app.routing";
+import {AboutComponent} from "./shop-app/about/about.component";
+import {ContactComponent} from "./shop-app/contact/contact.component";
 
 @NgModule({
   declarations: [
@@ -17,12 +21,16 @@ import {NameLabelPipe} from "./pipes/name-label.pipe";
     ProfileComponent,
     SimilarListComponent,
     ShortProfileComponent,
-    NameLabelPipe
+    NameLabelPipe,
+    ShopAppComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
