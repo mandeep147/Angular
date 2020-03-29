@@ -4,7 +4,7 @@ import {Pipe, PipeTransform} from "@angular/core";
   name: 'nameLabel'
 })
 export class NameLabelPipe implements PipeTransform{
-  transform(value: String): String {
-    return 'Name: ' + value;
+  transform(value: String, prefix: String): String {
+    return prefix + '' + value;
   }
 }
