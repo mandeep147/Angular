@@ -1,0 +1,8 @@
+<div>
+  <h3>Similar Matches</h3>
+  <ul>
+    <li *ngFor="let item of matches">
+      <app-short-profile [profile]="item"></app-short-profile>
+    </li>
+  </ul>
+</div>
