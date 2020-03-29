@@ -8,6 +8,7 @@ import { ImageComponent } from "./image-component/image.component";
 import {ProfileComponent} from "./homework-1/profile/profile.component";
 import {SimilarListComponent} from "./homework-1/similar-list/similar-list.component";
 import {ShortProfileComponent} from "./homework-1/short-profile/short-profile.component";
+import {NameLabelPipe} from "./pipes/name-label.pipe";
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {ShortProfileComponent} from "./homework-1/short-profile/short-profile.co
     ImageComponent,
     ProfileComponent,
     SimilarListComponent,
-    ShortProfileComponent
+    ShortProfileComponent,
+    NameLabelPipe
   ],
   imports: [
     BrowserModule,
