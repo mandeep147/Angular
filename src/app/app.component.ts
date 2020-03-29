@@ -6,8 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
-  name = "Mandeep";
+  title = 'The Dating App';
   items = [
     'https://cdn.pixabay.com/photo/2018/10/17/11/04/dog-3753706_1280.jpg',
     'https://cdn.pixabay.com/photo/2017/05/30/23/26/baby-alaskan-malamute-2358585_1280.jpg',
