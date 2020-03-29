@@ -1,3 +1,7 @@
+## Repository for practice apps from Udemy Angular Course
+[Course completion certificate] (https://www.udemy.com/certificate/UC-22c3b418-572b-4bbd-8908-977b64db721b/)
+
+
 # AngularApp
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
