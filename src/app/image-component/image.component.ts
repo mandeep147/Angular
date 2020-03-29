@@ -1,7 +1,19 @@
-import {Component} from "@angular/core";
+import {Component, Input} from "@angular/core";
 
 @Component({
   selector: 'app-image',
-  template: '<p> This is an image!</p>'
+  template: '<div class="thumbnail"><img src="{{imageUrl}}"/></div>',
+  styles: [
+    `.thumbnail {
+      width: 100px;
+      height: 100px;
+    }
+    img {
+      height: 100%;
+      width: auto;
+    }`
+  ]
 })
-export class ImageComponent {}
+export class ImageComponent {
+  @Input() imageUrl;
+}

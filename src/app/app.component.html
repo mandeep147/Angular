@@ -5,5 +5,11 @@
   {{name}}
 </p>
 <div>
-  <app-image></app-image>
+  <ul>
+    <li *ngFor="let item of items">
+      <span>
+        <app-image [imageUrl]="item"></app-image>
+      </span>
+    </li>
+  </ul>
 </div>
